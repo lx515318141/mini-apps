@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/news",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "基本配置",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "color":"#999",
+    "selectedColor":"#ff0000",
+    "backgroundColor":"#f5f5f5",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"image/home.png",
+        "selectedIconPath":"image/home1.png"
+      },
+      {
+        "pagePath":"pages/news/news",
+        "text":"新闻",
+        "iconPath":"image/module.png",
+        "selectedIconPath":"image/module1.png"
+      },
+      {
+        "pagePath":"pages/about/about",
+        "text":"我的",
+        "iconPath":"image/mine.png",
+        "selectedIconPath":"image/mine1.png"
+      }
+    ]
+  },
+  "style": "v2"
+}
